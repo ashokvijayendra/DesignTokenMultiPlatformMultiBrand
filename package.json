@@ -1,0 +1,26 @@
+{
+  "name": "style-dictionary-auto-rebuild-watcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "files": [
+    "build",
+    "properties"
+  ],
+  "scripts": {
+    "build": "node ./build.js",
+    "clean": "rm -rf build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postbuild": "node ./scripts/postbuild.js"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "style-dictionary": "3.7.1"
+  },
+  "dependencies": {
+    "@palmetto/palmetto-design-tokens": "^0.65.2",
+    "1designtokentesting": "^1.0.0",
+    "node-typescript-compiler": "^3.0.0"
+  }
+}

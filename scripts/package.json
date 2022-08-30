@@ -1,0 +1,15 @@
+{
+    "name": "stylee-dictionary-auto-rebuild-watcher",
+    "version": "1.0.0",
+    "description": "",
+    "main": "build/index.js",
+    "files": [
+      "build",
+      "properties"
+    ],
+    "scripts": {
+    },
+    "author": "",
+    "license": "MIT"
+  }
+  
